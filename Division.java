@@ -1,4 +1,4 @@
-#division
+##division_without_scanner
 public class Division {
     public static void main(String[] args) {
 
