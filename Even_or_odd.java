@@ -1,4 +1,4 @@
-#even or odd function 
+##even_or_odd_function 
 public class EvenOdd {
     public static void main(String[] args) {
 
