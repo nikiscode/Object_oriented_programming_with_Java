@@ -1,0 +1,24 @@
+//Meaning and explaination of Class and Object
+Class:
+*Blue print/templete to create object templete
+*Class is a combination of the variables (data members)and the methods (member functions)
+*Nature of the class is Logical entity
+*It doesnot occupy memory when defined 
+*Defines properties (variables &behaviours)
+*Declared using class keyword
+*Syntax:class Student{}
+*Exists only once in program
+*Cannot access methods directly without object(except in static method)
+*Exists as long as the program runs
+*Stored in methos area
+
+Object:
+*An object is an instance of a class 
+*Physical entity in Nature
+*Occupies memory when created
+*Represents real-world entity with actual values
+*Syntax:Student S1=new Student();
+*multiple objects can be created from one class
+*Can access class members using reference variable
+*Exists until it is destroyed or garbage collected
+*Stored in Heap Memory
