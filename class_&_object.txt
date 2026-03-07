@@ -1,4 +1,5 @@
 //Meaning and explaination of Class and Object
+
 Class:
 *Blue print/templete to create object templete
 *Class is a combination of the variables (data members)and the methods (member functions)
@@ -13,6 +14,7 @@ Class:
 *Stored in methos area
 
 Object:
+
 *An object is an instance of a class 
 *Physical entity in Nature
 *Occupies memory when created
