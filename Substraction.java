@@ -1,4 +1,4 @@
-##substraction
+##substraction in java
 public class Subtraction {
     public static void main(String[] args) {
 
