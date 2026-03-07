@@ -1,4 +1,4 @@
-//even or odd function 
+//even or odd function  without scanner statement 
 public class EvenOdd {
     public static void main(String[] args) {
 
