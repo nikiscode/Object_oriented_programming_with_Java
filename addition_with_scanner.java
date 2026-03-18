@@ -1,4 +1,4 @@
-##Addition with scanner statement 
+//Addition with scanner statement 
 import java.util.Scanner;
 public class add {
     public static void main (String[] add){
