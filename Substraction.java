@@ -1,4 +1,5 @@
-//substraction in java
+//substraction in java:
+
 public class Subtraction {
 public static void main(String[] args) {
         int a = 10;
