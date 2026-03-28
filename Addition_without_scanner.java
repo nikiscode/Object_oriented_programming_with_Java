@@ -1,4 +1,5 @@
-//Addition without the scanner statement 
+//Addition without the scanner statement:
+
 public class addition{
   public static void main(String[] sum){
     int a=57, b=69;
