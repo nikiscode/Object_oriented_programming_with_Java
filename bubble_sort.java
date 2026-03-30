@@ -1,0 +1,28 @@
+\\Bubble Sort
+import java.util.*;
+public class BubbleSort {
+public static void main(String[] args) {
+int arr[] = {5, 2, 9, 1, 3};
+for (int i = 0; i < arr.length - 1; i++) {
+for (int j = 0; j < arr.length - i - 1; j++) {
+if (arr[j] > arr[j + 1]) {
+int temp = arr[j];
+arr[j] = arr[j + 1];
+arr[j + 1] = temp;
+}
+}
+}
+System.out.println("Sorted Array:");
+for (int num : arr)
+System.out.print(num + " ");
+}
+}
+Output:
+Sorted Array:
+1 2 3 5 9
+6. Binary Search
+public class BinarySearch {
+public static void main(String[] args) {
+int arr[] = {1, 2, 3, 5, 9};
+int key = 5;
+int low = 0, high = arr.length - 1;
