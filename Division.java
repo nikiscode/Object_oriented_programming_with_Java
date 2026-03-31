@@ -1,5 +1,6 @@
 //Division without scanner statement:
- public class Division {
+
+public class Division {
 public static void main(String[] args) {
         int a = 20;
         int b = 5;
