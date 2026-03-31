@@ -1,7 +1,5 @@
 ##The importance and information of the java
-
 ##Object_oriented_programming_with_Java
-
 Introduction:
 Java is a high-level, object-oriented programming language widely used for developing enterprise applications, web services, mobile applications (Android), desktop software, and large-scale distributed systems.
 Developed by James Gosling in 1995, Java was designed with the principle:
