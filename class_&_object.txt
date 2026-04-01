@@ -1,5 +1,4 @@
 //Meaning and explaination of Class and Object
-
 Class:
 *Blue print/templete to create object templete
 *Class is a combination of the variables (data members)and the methods (member functions)
