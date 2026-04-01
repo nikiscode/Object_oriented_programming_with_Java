@@ -1,4 +1,5 @@
 //static vs final 
+
 class Bank {
     public final double INTEREST_RATE = 4.5;
     public static double totalBankCash = 0;
