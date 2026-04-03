@@ -1,14 +1,11 @@
 // Parent Class:
-
 class Account {
     protected String accountType = "General";   // Protected variable
     private double balance;                     // Private variable
-
-    // Constructor
+// Constructor
     public Account(double balance) {
         setBalance(balance);
     }
-
     // Getter
     public double getBalance() {
         return balance;
