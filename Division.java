@@ -1,3 +1,5 @@
+
+
 //Division without scanner statement:
 
 public class Division {
