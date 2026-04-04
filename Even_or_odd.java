@@ -1,3 +1,6 @@
+
+
+
 //even or odd function  without scanner statement:
 
 public class EvenOdd {
