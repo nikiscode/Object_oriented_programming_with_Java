@@ -1,17 +1,21 @@
 // Parent Class:
+
 class Account {
     protected String accountType = "General";   // Protected variable
     private double balance;                     // Private variable
 // Constructor
+    
     public Account(double balance) {
         setBalance(balance);
     }
-    // Getter
+    // Getter.
+    
     public double getBalance() {
         return balance;
     }
 
     // Setter with validation
+    
     public void setBalance(double balance) {
         if (balance >= 0) {
             this.balance = balance;
@@ -22,6 +26,7 @@ class Account {
 }
 
 // Child Class
+
 class SavingsAccount extends Account {
 
     // Constructor
