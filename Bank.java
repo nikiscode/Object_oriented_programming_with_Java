@@ -1,3 +1,5 @@
+
+
 // Parent Class:
 class Account {
     protected String accountType = "General";   // Protected variable
