@@ -1,3 +1,5 @@
+
+
 \\Explicit type casting
 package com.dataflair.typeconversion;
 public class TypePromotionExpression {
