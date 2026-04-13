@@ -1,5 +1,3 @@
-
-
 //Division without scanner statement:
 public class Division {
 public static void main(String[] args) {
