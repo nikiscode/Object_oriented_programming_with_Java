@@ -1,40 +1,37 @@
-##Method_overloading
-  import java.util.Scanner;
+import java.util.Scanner;
 
-public class ZomatoCheckout {
+class Shape {
+    void area(double radius) {
+        double result = Math.PI * radius * radius;
+        System.out.printf("Area of Circle: %.2f\n", result);
+    }
 
+    void area(int length, int breadth) {
+        int result = length * breadth;
+        System.out.println("Area of Rectangle: " + result);
+    }
+}
+
+public class shapeMain {   // ✅ Rename main class
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        Shape shape = new Shape();
 
-        Scanner input = new Scanner(System.in);
+        System.out.println("---Area Calculator---");
 
-        System.out.print("Enter Customer Name: ");
-        String customerName = input.nextLine();
+        System.out.print("Enter radius of circle: ");
+        double r = sc.nextDouble();
+        shape.area(r);
 
-        System.out.print("Enter Food Item: ");
-        String foodItem = input.nextLine();
+        System.out.print("Enter length and breadth of Rectangle: ");
+        int l = sc.nextInt();
+        int b = sc.nextInt();
+        shape.area(l, b);
 
-        int itemPrice = 499;
-        double gstRate = 0.18;
+        System.out.print("Enter side of Square: ");
+        float s = sc.nextFloat();
+        shape.area(s);   // calls double method
 
-        double taxAmount = itemPrice * gstRate;
-        double totalWithTax = itemPrice + taxAmount;
-
-        int payableAmount = (int) totalWithTax;
-
-        char currentTier = 'A';
-        char upgradedTier = (char) (currentTier + 1);
-
-        System.out.println("\n********** ZOMATO INVOICE **********");
-        System.out.println("Customer: " + customerName);
-        System.out.println("Item: " + foodItem);
-        System.out.println("Base Price: Rs." + itemPrice);
-        System.out.println("GST (18%): Rs." + taxAmount);
-        System.out.println("Total Amount: Rs." + totalWithTax);
-        System.out.println("Rounded Payable Amount: Rs." + payableAmount);
-        System.out.println("------------------------------------");
-        System.out.println("Loyalty Status: Upgraded to Tier " + upgradedTier);
-        System.out.println("************************************");
-
-        input.close();
+        sc.close();
     }
 }
