@@ -1,4 +1,4 @@
-// Parent Class:
+ // Parent Class:
 class Account {
     protected String accountType = "General";   // Protected variable
     private double balance;                     // Private variable
